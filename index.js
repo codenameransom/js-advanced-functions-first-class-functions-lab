@@ -15,7 +15,7 @@ const createFareMultiplier = function(multiValue){
 }
 
 const fareDoubler = createFareMultiplier(2)
-
+console.log(fareDoubler)
 const fareTripler = createFareMultiplier(3);
 
 const selectDifferentDrivers = function (drivers, driversToReturn) {
